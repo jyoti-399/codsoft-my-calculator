@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jersey 25", sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(45deg, #0a0a0a, #6a6e73)
+}
+.calcu{
+    border: 1px solid #717377;
+    padding: 20px;
+    border-radius: 16px;
+    background-color: transparent;
+    box-shadow: 0px 3px 15px #0a07d1f2;
+    
+}
+input{
+    width: 320px;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    background-color: transparent;
+    box-shadow: 0px 3px 15px rgba(190, 23, 23, 0.1);
+    font-size: 40px;
+    cursor: pointer;
+    text-align: right;
+    color: whitesmoke;
+
+}
+input::placeholder{
+    color: #fff;
+}
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px rgba(120, 108, 108, 0.867);
+    cursor: grabbing;
+}
+button:hover{
+    color: #3200e9;
+    background-color: rgb(158, 241, 91);
+    text-shadow: #3200e9;
+}
+.equalBtn{
+    color: #00e936;
+    color: aqua;    
+}   
+.operator{
+    
+    background-color: #fb7c14;
+}
